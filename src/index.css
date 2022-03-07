@@ -1,0 +1,85 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  text-align: left;
+}
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row.center {
+  align-items: center;
+}
+
+.imgSmall {
+  max-height: 8rem;
+}
+
+.btn button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  background-color: #f0c040;
+  width: 100%;
+  border: 0.1rem #404040 solid;
+  cursor: pointer;
+}
+.price {
+  text-align: left;
+}
+
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+  border-radius: 0.5rem;
+  margin-right: 5px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+button.remove {
+  background-color: #f04040;
+  width: 1.5rem;
+  border-radius: 0.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+button.badge {
+  background-color: #f04040;
+  border: none;
+  color: #ffff;
+  width: 1.5rem;
+  border-radius: 0.3rem;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
